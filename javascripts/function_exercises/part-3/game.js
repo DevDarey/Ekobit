@@ -1,4 +1,4 @@
-function RPS(){
+function RockPaperScissors(){
 
     function determineComputer(num){
       if(num <= .33) return "rock";
