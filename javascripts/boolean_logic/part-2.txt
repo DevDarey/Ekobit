@@ -1,0 +1,51 @@
+**********************************************
+let isLearning = true;
+if(isLearning){
+    console.log("Keep it up!");
+} else {
+    console.log("Pretty sure you are learning....");
+}
+***************************************************
+1)What should the above code console.log?
+ans: it will print keep it up 
+2)Why do we not need to specify if(isLearning === true)? Why does if(isLearning) work on its own?
+ans: we cant specify isLearning === true because the value in isLearning is true
+ii)if(isLearning) will work on its own because the if accepts a boolean value(true or false) and isLearning is true 
+
+**********************************************
+let firstvariable;
+let secondvariable = "";
+let thirdvariable = 1;
+let secretMessage = "Shh!";
+
+if(firstvariable){
+    console.log("first");
+} else if(firstvariable || secondvariable){
+    console.log("second");
+} else if(firstvariable || thirdvariable){
+    console.log("third");
+} else {
+    console.log("fourth");
+}
+*********************************************
+3) What should the above code console.log? Why?
+ans:undefined becaue the firstvariable was created but not initialized
+What is the value of firstvariable when it is initialized?
+ans:first
+Is the value of firstvariable a "truthy" value? Why?
+ans:the value of the firstvariable is not a truthy value because it is undefined.
+
+Is the value of secondvariable a "truthy" value? Why?
+ans : the secondvariable is a falsey value because the value is considered false when  encountered in a boolean context
+
+Is the value of thirdvariable a "truthy" value? Why?
+ans:yes, because a truthy value is a value that is considered true when encountered in a Boolean context 
+
+Part III
+i)
+if(Math.random() > 0.5){
+    console.log('greater than 0.5')}
+    else{
+        console.log('less than 0.5)
+    }
+ii)A falsy (sometimes written falsey) value is a value that is considered false when encountered in a Boolean context. exsmples include false,0 ,null,undefined,0n ,""  etc

@@ -1,0 +1,14 @@
+1)let objName = {
+    firstName:'Damilare',
+    lastName:'Micheal',
+    occupation:'Software Developer'
+}
+)2console.log(objName.firstName)
+console.log(objName["firstName"])
+3)objName.hobby = "Singing"
+"Singing"
+delete objName.occupation
+true
+4)The dot notation and bracket notation both are used to access the object properties in JavaScript. 
+The dot notation is used mostly as it is easier to read and comprehend and also less verbose. 
+The main difference between dot notation and  bracket notation is that the bracket notation allows us to access object properties using variable.
